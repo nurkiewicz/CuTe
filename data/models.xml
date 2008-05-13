@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<models>
+	<helpModel>
+		<cmd id="begin">LINE_LOOP</cmd>
+		<cmd id="hsvcolor"><hsv h="0.0" s="0.0" v="0.4" /></cmd>
+		<cmd id="vertex"><coords x="-0.3" y="-0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="-0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.3" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.3" y="0.3" z="0.1" /></cmd>
+		<cmd id="end" />
+		<cmd id="begin">LINE_LOOP</cmd>
+		<cmd id="vertex"><coords x="-0.3" y="-0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.3" y="-0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="-0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.3" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.3" y="0.3" z="-0.1" /></cmd>
+		<cmd id="end" />
+		<cmd id="begin">LINES</cmd>
+		<cmd id="vertex"><coords x="-0.3" y="-0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.3" y="-0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="-0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="-0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="0.3" y="0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.1" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.1" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.3" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.1" y="0.3" z="-0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.3" y="0.3" z="0.1" /></cmd>
+		<cmd id="vertex"><coords x="-0.3" y="0.3" z="-0.1" /></cmd>
+		<cmd id="end" />
+	</helpModel>
+	<atomModel>
+		<cmd id="enable">TEXTURE_2D</cmd>
+		<cmd id="begin">QUADS</cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="-0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="-0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="-0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="-0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="-0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.45" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="-0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="-0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.15" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="-0.15" y="0.3" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.0" z="-0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="0.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.0" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="1.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.3" z="0.15" /></cmd>
+		<cmd id="texcoords"><coords s="0.0" t="1.0" /></cmd>
+		<cmd id="vertex"><coords x="0.45" y="0.3" z="-0.15" /></cmd>
+		<cmd id="end" />
+		<cmd id="disable">TEXTURE_2D</cmd>
+	</atomModel>
+</models>

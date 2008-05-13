@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<language>
+	<msg>
+		<mainMenu>
+			<newGame>New Game</newGame>
+			<difficulty>Difficulty</difficulty>
+			<difficultyEasy>Easy</difficultyEasy>
+			<difficultyMedium>Medium</difficultyMedium>
+			<difficultyHard>Hard</difficultyHard>
+			<difficultyCustom>Custom</difficultyCustom>
+			<demo>Demo</demo>
+			<help>Help</help>
+			<helpSubItem>Rotating</helpSubItem>
+			<helpSubItem>Moving</helpSubItem>
+			<helpSubItem>Camera</helpSubItem>
+			<helpSubItem>Mouse</helpSubItem>
+			<about>About</about>
+			<options>Options</options>
+		</mainMenu>
+		<optionsMenu>
+			<playerName>Player name</playerName>
+			<cuboidSize>Cuboid size</cuboidSize>
+			<cuboidDepth>Cuboid depth</cuboidDepth>
+			<blocksSet>Blocks set</blocksSet>
+			<blocksSetClassic>Classic</blocksSetClassic>
+			<blocksSetFlat>Flat</blocksSetFlat>
+			<blocksSetExtreme>Extreme</blocksSetExtreme>
+			<video>Video</video>
+			<videoSubItem>Small window</videoSubItem>
+			<videoSubItem>Large window</videoSubItem>
+			<videoSubItem>Fullscreen LO</videoSubItem>
+			<videoSubItem>Fullscreen HI</videoSubItem>
+			<videoWindow>in window</videoWindow>
+			<videoFullscreen>fullscreen</videoFullscreen>
+			<language>Language</language>
+			<keyboard>Keyboard</keyboard>
+			<sounds>Sounds</sounds>
+		</optionsMenu>
+		<keyboardMenu>
+			<current>Current key: </current>
+			<previous>Previous key: </previous>
+			<typeNewKey>Type new key for this action . . .</typeNewKey>
+			<conflict>is already assigned to:</conflict>
+		</keyboardMenu>
+		<sounds>
+			<on>On</on>
+			<off>Off</off>
+		</sounds>
+		<help>
+			<cameraArrows>Arrows: move camera</cameraArrows>
+			<cameraZoomInOut>:  zoom in/out</cameraZoomInOut>
+			<cameraRestorePositions>[0] to [9]: restore camera position</cameraRestorePositions>
+			<cameraSavePositions>[1] to [9]: save camera position</cameraSavePositions>
+			<cameraBack>:  back to default position</cameraBack>
+			<cameraPermChange>with |:  permanent change</cameraPermChange>
+			<cameraTempChange>with |:  temporary change</cameraTempChange>
+			<cameraBottomMode>:  cuboid bottom mode</cameraBottomMode>
+			<cameraTopMode>:  cuboid top mode</cameraTopMode>
+			<cameraBlockMode>:  block mode</cameraBlockMode>
+			<mouseRight>Right mouse button: moving</mouseRight>
+			<mouseLeft>Left mouse button: pushing forward</mouseLeft>
+			<mouseWheel>[Wheel]</mouseWheel>
+		</help>
+		<keyNames>
+			<space>[Space]</space>
+			<left>[Left]</left>
+			<right>[Right]</right>
+			<up>[Up]</up>
+			<down>[Down]</down>
+		</keyNames>
+		<inGame>
+			<speed>Speed: </speed>
+			<pause>PAUSE</pause>
+			<gameOver>GAME OVER</gameOver>
+			<processing>Processing . . .</processing>
+			<waiting>Waiting . . .</waiting>
+			<transforming>Transforming . . .</transforming>
+			<esc>[Esc] to resume</esc>
+			<enter>[Enter] to go back to menu</enter>
+		</inGame>
+		<actionLabels>
+			<rotateXCW>
+				<short>Rotate XCW</short>
+				<desc>Rotate current block around X axis clockwise</desc>
+			</rotateXCW>
+			<rotateXCCW>
+				<short>Rotate XCCW</short>
+				<desc>Rotate current block around X axis counterclockwise</desc>
+			</rotateXCCW>
+			<rotateYCW>
+				<short>Rotate YCW</short>
+				<desc>Rotate current block around Y axis clockwise</desc>
+			</rotateYCW>
+			<rotateYCCW>
+				<short>Rotate YCCW</short>
+				<desc>Rotate current block around Y axis counterclockwise</desc>
+			</rotateYCCW>
+			<rotateZCW>
+				<short>Rotate ZCW</short>
+				<desc>Rotate current block around Z axis clockwise</desc>
+			</rotateZCW>
+			<rotateZCCW>
+				<short>Rotate ZCCW</short>
+				<desc>Rotate current block around Z axis counterclockwise</desc>
+			</rotateZCCW>
+			<moveLeft>
+				<short>Move left</short>
+				<desc>Move current block left</desc>
+			</moveLeft>
+			<moveRight>
+				<short>Move right</short>
+				<desc>Move current block right</desc>
+			</moveRight>
+			<moveUp>
+				<short>Move up</short>
+				<desc>Move current block up</desc>
+			</moveUp>
+			<moveDown>
+				<short>Move down</short>
+				<desc>Move current block down</desc>
+			</moveDown>
+			<moveForward>
+				<short>Move forward</short>
+				<desc>Move current block forward</desc>
+			</moveForward>
+			<cameraSetTemporary>
+				<short>Cam. temp.</short>
+				<desc>Change the camera position temporary</desc>
+			</cameraSetTemporary>
+			<cameraSetPermanent>
+				<short>Cam. perm.</short>
+				<desc>Change the camera position temporarily</desc>
+			</cameraSetPermanent>
+			<cameraZoomIn>
+				<short>Zoom in</short>
+				<desc>Camera zoom in</desc>
+			</cameraZoomIn>
+			<cameraZoomOut>
+				<short>Zoom out</short>
+				<desc>Camera zoom out</desc>
+			</cameraZoomOut>
+			<cameraDefaultPos>
+				<short>Default pos.</short>
+				<desc>Go back to the default camera position</desc>
+			</cameraDefaultPos>
+			<cameraMode0>
+				<short>Cam: bottom</short>
+				<desc>Camera base viewport is located at the bottom of the game cuboid</desc>
+			</cameraMode0>
+			<cameraMode1>
+				<short>Cam: top</short>
+				<desc>Camera base viewport is located at the top of the game cuboid</desc>
+			</cameraMode1>
+			<cameraMode2>
+				<short>Cam: block</short>
+				<desc>Camera base viewport is located at the middle of the current block</desc>
+			</cameraMode2>
+			<cheat>
+				<short>Cheat</short>
+				<desc>Program locates the current block at the best possible location.</desc>
+			</cheat>
+		</actionLabels>
+		<misc>
+			<restart>Press [Enter] to restart. . .</restart>
+			<about>CuTe version $v
+Copyright (C) $d $a
+WWW:    $w
+E-mail: $m$t
+
+This program is distributed under the terms of the GNU
+General Public License (see license.txt for details).
+
+CuTe comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.</about>
+			<defaultPlayerName>CuTe Player</defaultPlayerName>
+		</misc>
+	</msg>
+	<info>
+		<about>
+			<author>Tomasz Nurkiewicz</author>
+			<email>T.Nurkiewicz@stud.elka.pw.edu.pl</email>
+			<version>0.0</version>
+			<date>Sep 2005</date>
+			<translationL>Translation: </translationL>
+			<emailL>E-mail: </emailL>
+			<versionL>Version: </versionL>
+		</about>
+		<name>
+			<english>English</english>
+			<native>English</native>
+		</name>
+		<fonts>
+			<small size="10">Verdana</small>
+			<medium size="16">Courier New</medium>
+			<large size="10">Comic Sans MS</large>
+		</fonts>
+	</info>
+</language>

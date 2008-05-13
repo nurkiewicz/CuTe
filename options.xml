@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<options>
+	<controls>
+		<cameraDefaultPos>9</cameraDefaultPos>
+		<cameraMode0>90</cameraMode0>
+		<cameraMode1>88</cameraMode1>
+		<cameraMode2>67</cameraMode2>
+		<cameraSetPermanent>16</cameraSetPermanent>
+		<cameraSetTemporary>17</cameraSetTemporary>
+		<cameraZoomIn>34</cameraZoomIn>
+		<cameraZoomOut>33</cameraZoomOut>
+		<cheat>112</cheat>
+		<moveDown>40</moveDown>
+		<moveForward>32</moveForward>
+		<moveLeft>37</moveLeft>
+		<moveRight>39</moveRight>
+		<moveUp>38</moveUp>
+		<rotateXCCW>65</rotateXCCW>
+		<rotateXCW>81</rotateXCW>
+		<rotateYCCW>83</rotateYCCW>
+		<rotateYCW>87</rotateYCW>
+		<rotateZCCW>68</rotateZCCW>
+		<rotateZCW>69</rotateZCW>
+	</controls>
+	<difficulty blocksSet="2" depth="19" size="11" />
+	<language>polish.xml</language>
+	<player>Domyœlny gracz</player>
+	<sounds>1</sounds>
+	<video>2</video>
+</options>

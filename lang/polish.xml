@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<language>
+	<msg>
+		<mainMenu>
+			<newGame>Nowa gra</newGame>
+			<difficulty>Poziom</difficulty>
+			<difficultyEasy>Łatwy</difficultyEasy>
+			<difficultyMedium>Średni</difficultyMedium>
+			<difficultyHard>Trudny</difficultyHard>
+			<difficultyCustom>Wybrany</difficultyCustom>
+			<demo>Demonstracja</demo>
+			<help>Pomoc</help>
+			<helpSubItem>Obracanie</helpSubItem>
+			<helpSubItem>Poruszanie</helpSubItem>
+			<helpSubItem>Kamera</helpSubItem>
+			<helpSubItem>Mysz</helpSubItem>
+			<about>O grze</about>
+			<options>Opcje</options>
+		</mainMenu>
+		<optionsMenu>
+			<playerName>Twoje imię</playerName>
+			<cuboidSize>Wielkość gry</cuboidSize>
+			<cuboidDepth>Głębokość gry</cuboidDepth>
+			<blocksSet>Klocki</blocksSet>
+			<blocksSetClassic>Klasyczne</blocksSetClassic>
+			<blocksSetFlat>Płaskie</blocksSetFlat>
+			<blocksSetExtreme>Trójwymiarowe</blocksSetExtreme>
+			<video>Grafika</video>
+			<videoSubItem>Małe okno</videoSubItem>
+			<videoSubItem>Duże okno</videoSubItem>
+			<videoSubItem>Pełny ekran</videoSubItem>
+			<videoSubItem>Pełny ekran</videoSubItem>
+			<videoWindow>w oknie</videoWindow>
+			<videoFullscreen>pełny ekran</videoFullscreen>
+			<language>Język</language>
+			<keyboard>Klawiatura</keyboard>
+			<sounds>Dźwięki</sounds>
+		</optionsMenu>
+		<keyboardMenu>
+			<current>Obecny klawisz: </current>
+			<previous>Poprzedni klawisz: </previous>
+			<typeNewKey>Wciśnij klawisz dla tego zadania . . .</typeNewKey>
+			<conflict>jest już przypisany do:</conflict>
+		</keyboardMenu>
+		<sounds>
+			<on>Włączone</on>
+			<off>Wyłączone</off>
+		</sounds>
+		<help>
+			<cameraArrows>Strzałki:  poruszaj kamerą</cameraArrows>
+			<cameraZoomInOut>:  powiększanie/pomniejszanie</cameraZoomInOut>
+			<cameraRestorePositions>od [0] do [9]:  przywróć pozycję kamery</cameraRestorePositions>
+			<cameraSavePositions>od [1] do [9]:  zapisz pozycję kamery</cameraSavePositions>
+			<cameraBack>:  powrót do domyślnej pozycji</cameraBack>
+			<cameraPermChange>z |:  zmiana na stałe</cameraPermChange>
+			<cameraTempChange>z |:  zmiana tymczasowa</cameraTempChange>
+			<cameraBottomMode>:  widok dna planszy</cameraBottomMode>
+			<cameraTopMode>:  widok wierzchu planszy</cameraTopMode>
+			<cameraBlockMode>:  widok klocka</cameraBlockMode>
+			<mouseRight>Prawy przycisk myszy: poruszanie</mouseRight>
+			<mouseLeft>Lewy przycisk myszy: klocek do przodu</mouseLeft>
+			<mouseWheel>[Kółko]</mouseWheel>
+		</help>
+		<keyNames>
+			<space>[Spacja]</space>
+			<left>[Lewo]</left>
+			<right>[Prawo]</right>
+			<up>[Góra]</up>
+			<down>[Dół]</down>
+		</keyNames>
+		<inGame>
+			<speed>Prędkość: </speed>
+			<pause>PAUZA</pause>
+			<gameOver>KONIEC GRY</gameOver>
+			<processing>Przetwarzanie . . .</processing>
+			<waiting>Oczekiwanie . . .</waiting>
+			<transforming>Transformowanie . . .</transforming>
+			<esc>[Esc] aby wznowić</esc>
+			<enter>[Enter] aby wrócić do menu</enter>
+		</inGame>
+		<actionLabels>
+			<rotateXCW>
+				<short>Obrót XCW</short>
+				<desc>Obraca klocek wokół osi X zgodnie z ruchem wskazówek zegara</desc>
+			</rotateXCW>
+			<rotateXCCW>
+				<short>Obrót XCCW</short>
+				<desc>Obraca klocek wokół osi X przeciwnie do ruchu wskazówek zegara</desc>
+			</rotateXCCW>
+			<rotateYCW>
+				<short>Obrót YCW</short>
+				<desc>Obraca klocek wokół osi Y zgodnie z ruchem wskazówek zegara</desc>
+			</rotateYCW>
+			<rotateYCCW>
+				<short>Obrót YCCW</short>
+				<desc>Obraca klocek wokół osi Y przeciwnie do ruchu wskazówek zegara</desc>
+			</rotateYCCW>
+			<rotateZCW>
+				<short>Obrót ZCW</short>
+				<desc>Obraca klocek wokół osi Z zgodnie z ruchem wskazówek zegara</desc>
+			</rotateZCW>
+			<rotateZCCW>
+				<short>Obrót ZCCW</short>
+				<desc>Obraca klocek wokół osi Z przeciwnie do ruchu wskazówek zegara</desc>
+			</rotateZCCW>
+			<moveLeft>
+				<short>Lewo</short>
+				<desc>Przesuwa klocek w lewo</desc>
+			</moveLeft>
+			<moveRight>
+				<short>Prawo</short>
+				<desc>Przesuwa klocek w prawo</desc>
+			</moveRight>
+			<moveUp>
+				<short>Góra</short>
+				<desc>Przesuwa klocek w górę</desc>
+			</moveUp>
+			<moveDown>
+				<short>Dół</short>
+				<desc>Przesuwa klocek w dół</desc>
+			</moveDown>
+			<moveForward>
+				<short>Do przodu</short>
+				<desc>Przesuwa klocek do przodu</desc>
+			</moveForward>
+			<cameraSetTemporary>
+				<short>Kam. tymcz.</short>
+				<desc>Zmienia tymczasowo pozycję kamery</desc>
+			</cameraSetTemporary>
+			<cameraSetPermanent>
+				<short>Kam. stała</short>
+				<desc>Zmienia na stałe pozycję kamery</desc>
+			</cameraSetPermanent>
+			<cameraZoomIn>
+				<short>Powiększenie</short>
+				<desc>Powiększa obraz</desc>
+			</cameraZoomIn>
+			<cameraZoomOut>
+				<short>Pomniejszenie</short>
+				<desc>Zmniejsza obraz</desc>
+			</cameraZoomOut>
+			<cameraDefaultPos>
+				<short>Domyślna poz.</short>
+				<desc>Ustawia kamerę na domyślnej pozycji</desc>
+			</cameraDefaultPos>
+			<cameraMode0>
+				<short>Kam: dół</short>
+				<desc>Ustawia punkt bazowy kamery na dole planszy do gry</desc>
+			</cameraMode0>
+			<cameraMode1>
+				<short>Kam: góra</short>
+				<desc>Ustawia punkt bazowy kamery na górze planszy do gry</desc>
+			</cameraMode1>
+			<cameraMode2>
+				<short>Kam: klocek</short>
+				<desc>Ustawia punkt bazowy kamery w środku klocka</desc>
+			</cameraMode2>
+			<cheat>
+				<short>Pomocnik</short>
+				<desc>Automatycznie ustawia klocek na najlepszej możliwej pozycji na planszy</desc>
+			</cheat>
+		</actionLabels>
+		<misc>
+			<restart>Naciśnij [Enter] by uruchomić ponownie. . .</restart>
+			<about>CuTe wersja $v
+Copyright (C) $d $a
+WWW:    $w
+E-mail: $m$t
+
+Niniejszy program jest dystrybuowany na warunkach
+Powszechnej Licencji Publicznej GNU (zobacz plik license.txt).
+
+CuTe wydawane jest ABSOLUTNIE BEZ ŻADNEJ GWARANCJI.
+To jest wolne oprogramowanie i mile widziane jest dalsze 
+rozpowszechnianie go przez ciebie na określonych warunkach.</about>
+			<defaultPlayerName>Domyślny gracz</defaultPlayerName>
+		</misc>
+	</msg>
+	<info>
+		<about>
+			<author>Tomasz Nurkiewicz</author>
+			<email>T.Nurkiewicz@stud.elka.pw.edu.pl</email>
+			<version>0.0</version>
+			<date>Wrzesień 2005</date>
+			<translationL>Tłumaczenie: </translationL>
+			<emailL>E-mail: </emailL>
+			<versionL>Wersja: </versionL>
+		</about>
+		<name>
+			<english>Polish</english>
+			<native>Polski</native>
+		</name>
+		<fonts>
+			<small size="10">Arial CE</small>
+			<medium size="16">Courier New CE</medium>
+			<large size="10">Comic Sans MS</large>
+		</fonts>
+	</info>
+</language>
