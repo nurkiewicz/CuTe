@@ -1,0 +1,1 @@
+Simple C++/OpenGL game written around summer 2005. Just archiving the code.
